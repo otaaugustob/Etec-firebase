@@ -11,6 +11,9 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import br.com.etechoracio.firebase.R;
 import br.com.etechoracio.firebase.enums.EspecieEnum;
 import br.com.etechoracio.firebase.enums.SexoEnum;
@@ -52,6 +55,11 @@ public class InclusaoActivity extends AppCompatActivity {
         personagem.setStatus(StatusEnum.getBy(spnStatus.getSelectedItemPosition()));
         personagem.setNome(editNome.getText().toString());
         personagem.setSexo(SexoEnum.getBy(((RadioButton) findViewById(groupSexo.getCheckedRadioButtonId())).getText().toString()));
+
+        DatabaseReference   myRef = FirebaseDatabase.getInstance().getReference("personagens");
+        String id = myRef.push().getKey();
+        personagem.setId(id);
+        myRef.child(id).setValue(personagem);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Sucesso");

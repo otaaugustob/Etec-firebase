@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "905789391750",
-    "firebase_url": "https://etec-firebase-e1239.firebaseio.com",
-    "project_id": "etec-firebase-e1239",
-    "storage_bucket": "etec-firebase-e1239.appspot.com"
+    "project_number": "678082595978",
+    "firebase_url": "https://etec-firebaseotavio.firebaseio.com",
+    "project_id": "etec-firebaseotavio",
+    "storage_bucket": "etec-firebaseotavio.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:905789391750:android:d1dc3eb470fbf267",
+        "mobilesdk_app_id": "1:678082595978:android:aad4567e5956e2f1",
         "android_client_info": {
-          "package_name": "br.com.etechoracio.firebase"
+          "package_name": "br.com.etechoracio.firebaseotavio"
         }
       },
       "oauth_client": [
         {
-          "client_id": "905789391750-hl1ir752elujdfc4oiie6qhhbovkesur.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "br.com.etechoracio.firebase",
-            "certificate_hash": "6c27e96497b2c62e1911f45f543cdb1b6875accc"
-          }
-        },
-        {
-          "client_id": "905789391750-q74o5mfe4drgi326jaft8heppi47hmhe.apps.googleusercontent.com",
+          "client_id": "678082595978-7j37vo7lnv1pp3v30s101ph47dq3m90a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAtyi8Q1rnSd30ehakZZSYdNGTRNnZXxGQ"
+          "current_key": "AIzaSyASGkoSxrjguQqZ-F_VDJtmcY4HIPZuN2M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "905789391750-q74o5mfe4drgi326jaft8heppi47hmhe.apps.googleusercontent.com",
+              "client_id": "678082595978-7j37vo7lnv1pp3v30s101ph47dq3m90a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
